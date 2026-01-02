@@ -1,6 +1,6 @@
 # AWS EC2 High Availability & Auto Scaling Project (Terraform)
 
-## 📌 Overview
+##  Overview
 This project demonstrates a **production-like High Availability and Auto Scaling architecture on AWS** using **Terraform** and **AWS CLI**.
 
 The goal of this project is to showcase real-world CloudOps practices such as:
@@ -48,7 +48,7 @@ EC2 Instances (Multi-AZ)
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - Terraform
 - AWS CLI
 - Amazon Linux 2023
@@ -56,7 +56,7 @@ EC2 Instances (Multi-AZ)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 aws-ec2-ha-autoscaling-terraform/
@@ -70,7 +70,7 @@ aws-ec2-ha-autoscaling-terraform/
 
 ---
 
-## 🔐 Security Design
+##  Security Design
 Two Security Groups are used following the **principle of least privilege**:
 
 ### ALB Security Group
@@ -86,7 +86,7 @@ Two Security Groups are used following the **principle of least privilege**:
 
 ---
 
-## ⚙️ Auto Scaling Configuration
+##  Auto Scaling Configuration
 - Minimum instances: `1`
 - Desired instances: `1`
 - Maximum instances: `3`
@@ -99,7 +99,7 @@ CloudWatch Alarms trigger scaling actions automatically.
 
 ---
 
-## 🚀 Deployment Workflow
+## Deployment Workflow
 This project follows a **production-style Terraform workflow**:
 
 ```bash
@@ -128,7 +128,7 @@ CloudWatch alarm triggers scale-out
 
 New EC2 instances are launched automatically
 
-📤 Outputs
+ Outputs
 
 After a successful apply, Terraform provides:
 
@@ -140,7 +140,7 @@ Auto Scaling Group name
 
 Target Group ARN
 
-💰 Cost Awareness
+ Cost Awareness
 
 This project creates billable AWS resources:
 
@@ -152,7 +152,7 @@ After testing, clean up all resources
 
 terraform destroy
 
-🎯 Learning Outcomes
+ Learning Outcomes
 
 Through this project, I practiced:
 
