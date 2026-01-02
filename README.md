@@ -57,15 +57,16 @@ EC2 Instances (Multi-AZ)
 ---
 
 ## 📂 Project Structure
-ws-ec2-ha-autoscaling-terraform/
-├──terraform
-|   ├── provider.tf
-|   ├── variables.tf
-|   ├── main.tf
-|   ├── outputs.tf
-├── screenshot
-├── README.md
 
+```text
+aws-ec2-ha-autoscaling-terraform/
+├── terraform/
+│   ├── provider.tf
+│   ├── variables.tf
+│   ├── main.tf
+│   └── outputs.tf
+├── screenshots/
+└── README.md
 
 ---
 
