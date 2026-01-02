@@ -14,10 +14,10 @@ This project was built without using the AWS Console for provisioning, following
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 **Traffic Flow:**
 
-nternet
+Internet
 |
 Application Load Balancer (ALB)
 |
