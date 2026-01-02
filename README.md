@@ -36,7 +36,7 @@ EC2 Instances (Multi-AZ)
 
 ---
 
-## ☁️ AWS Services Used
+##  AWS Services Used
 - Amazon EC2
 - Application Load Balancer (ALB)
 - Auto Scaling Group (ASG)
